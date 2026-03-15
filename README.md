@@ -154,7 +154,7 @@ While the bottle can hold milk or water or juice, it will hold only liquids.
 
 Similarly,
 
-- A variable of type **_string_** (like the variable - *custName*), can store only strings.
+- A variable of type ***string*** (like the variable - *custName*), can store only strings.
 - A variable of type **int** (like the variable - *custAge)* can store only integers.
 - A variable of type **boolean** (like the variable - *custMaritalStatus)* can store either true or false.
 - A variable of type **float** (like the variable - fruitWeight*)* can store only decimal values.
@@ -371,7 +371,7 @@ Caching is an optimization technique where **Python reuses objects** instead of 
 
 - Python automatically **caches integers from -5 to 256**.
 - This means when you assign `a = 100` and `b = 100`, **both point to the same memory location**.
-- Python **caches small integers** in the range `5` to `256`.
+- Python **caches small integers** in the range `-5` to `256`.
 - These integers are pre-allocated and shared to improve performance.
 - When you assign values in this range, Python reuses the existing object instead of creating a new one.
 
